@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imagem/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/atropos.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://kit.fontawesome.com/6cde816448.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6cde816448.js" crossorigin="anonymous"></script>
+    <title>BARBEARIA-SERVICOS</title>
+</head>
+<body>
+    <nav>
+        <ul class="logo">
+            <li><img id="logo_image" src="./imagem/logo.png" alt="logo"></li>
+            <li><h1 class="titulo_logo"><a href="./index.html">BARBER<span> SHOP</span></a></h1></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="sobre.html">SOBRE</a></li>
+            <li><a href="#locais">LOCAIS</a></li>
+        </ul>
+    </nav>
+    
+<div class="caixa">
+    <section class="box estatisticas">
+      <div class="estatistica">
+          <p class="estatistica-titulo">Corte</p>
+          <div class="estatistica-valor">
+              <p class="estatistica-numero">R$50</p>
+          </div>
+      </div>
+      <div class="estatistica">
+          <p class="estatistica-titulo">lavagem</p>
+          <div class="estatistica-valor">
+              <p class="estatistica-numero">R$30</p>
+          </div>
+      </div>
+      <div class="estatistica">
+          <p class="estatistica-titulo">Cerveja</p>
+          <div class="estatistica-valor">
+              <p class="estatistica-numero">R$9</p>
+          </div>
+      </div>
+   
+  </section>
+  </div>
+  
+<main>
+    
+
+    <div class="carousel" data-flickity='{ "freeScroll": true }'>
+        <div class="carousel-cell" id="locais">
+            <div class="card__carrocel">
+                <img class="img__carrocel" src="./imagem/ambiente.png" alt="">
+                <p class="texto">Osasco-SP</p>
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <div class="card__carrocel">
+                <img class="img__carrocel" src="./imagem/ambiente1.png" alt="">
+                <p class="texto">Taboão da Serra-SP</p>
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <div class="card__carrocel">
+                <img class="img__carrocel" src="./imagem/ambiente2.png" alt="">
+                <p class="texto">Guaianazes-SP</p>
+            </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="card__carrocel">
+              <img class="img__carrocel" src="./imagem/ambiente3.png" alt="">
+              <p class="texto">Porto-PORTUGAL</p>
+          </div>
+      </div>
+    </div>
+</main>
+        <footer>
+            <hgroup class="info">
+                <ul class="logo">
+                    <li><img id="logo__image" src="/imagem/logo.png" alt="logo"></li>
+                    <h2 class="textoFooter"> <i class="fa-sharp fa-solid fa-location-dot"></i>Osasco-SP       </h2>
+                    <h2 class="textoFooter"> <i class="fa-solid fa-phone"></i> (11) 97070-7070 </h2>
+                </ul>
+                </hgroup>
+        </footer>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <script src="./JS/atropos.min.js"></script>
+
+ 
+    <script>
+        const myAtropos = Atropos({
+  el: '.my-atropos',
+           
+
+});
+    </script>
+     <script>
+        const myAtropos1 = Atropos({
+  el: '.my-atropos1',
+           
+
+});
+    </script>
+
+<script>
+    const myAtropos2 = Atropos({
+el: '.my-atropos2',
+       
+
+});
+</script>
+<script>
+  const myAtropos3 = Atropos({
+el: '.my-atropos3',
+     
+
+});
+</script>
+<script>
+  const myAtropos4 = Atropos({
+el: '.my-atropos4',
+     
+
+});
+</script>
+<script>
+  const myAtropos5 = Atropos({
+el: '.my-atropos5',
+     
+
+});
+</script>
+
+    <script src="https://unpkg.com/scrollreveal"></script><!--cria efeito -->
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
+    <script>
+        ScrollReveal().reveal(".caracteristica__bloco1",{
+            reset: true,easing:"ease-out"});
+            ScrollReveal().reveal(".caracteristica__bloco2",{
+            reset: true,easing:"ease-out"});
+            ScrollReveal().reveal(".caracteristica__bloco3",{
+            reset: true,easing:"ease-out"});
+            ScrollReveal().reveal(".caracteristica__bloco4",{
+            reset: true,easing:"ease-out"});
+    </script>
+</body>
+
+</html>
